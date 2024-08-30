@@ -1,0 +1,262 @@
+*{
+    line-height: 1.5;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+nav{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgb(63, 61, 61); 
+    padding: 0px; 
+    margin: 0px;
+    background-color: #fff; 
+    height:80px;
+    
+}
+
+nav li{
+    display:inline;
+    margin: 10px;       
+    font-weight: bold;
+}
+nav li a{
+    color:black;
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+#a1{
+    border: 2px solid #0250bb;
+    color: #0250bb;
+    padding : 5px;
+    margin-right:20px;
+}
+
+#a1:hover{
+    color:white;
+    background-color: #0250bb;
+    text-decoration: none;
+}
+#div2{
+    font-size: xx-large;       
+    text-align: center;
+    padding: 50px 0px;
+    margin-top:80px;
+}
+
+.div3{
+    background-color: #DAF0F7;
+    font-size: x-large;
+    font-weight: 400;
+    text-align: center;
+    padding: 50px 0px;
+}
+#products{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div4{
+    text-align: center;
+    display: block;
+    width: 1000px;
+    padding:10px;
+    margin-top: 10px
+}
+
+#div4 p{    
+    font-size: large;      
+    font-weight: bold;
+    
+}
+#div4 a{    
+    font-size: large;      
+    font-weight: bold;       
+    margin-bottom: 30px; 
+    border: 2px solid black; 
+    color:black;  
+    padding: 8px;  
+    border-radius: 5px;
+     
+}
+
+.my-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0;
+margin: 0;
+background-color: #fff;
+height: 300px;
+}
+
+.my-container div {
+text-align: center;
+}
+
+.my-container div img {
+width: 50px;
+height: 50px;
+margin-bottom: 10px;
+}
+
+.my-container div p {
+margin: 10px 0; 
+}
+
+.my-container div a {
+display: inline-block;
+margin-top: 10px; 
+padding:0px 10px;
+}
+.my-container div a:hover {
+background-color: #ededf0;
+}
+
+.simple-container{
+display:flex;
+align-items: center;
+
+}  
+.simple-container div{
+margin:50px;
+font-size: larger;
+width:50%;
+height:400px;
+}
+.simple-container div img{
+width:580px;
+height:350px
+}
+.simple-container div .btn{
+border: 2px solid black;
+background-color: black;
+border-radius:5px;
+color:white;
+font-size: large;
+padding:8px;
+margin-top:80px;
+}
+
+.simple-container div .btn:hover{
+background-color: #ededf0;
+color:black;    
+
+}
+.simple-container div p{
+margin-top:30px;
+}
+.simple-container div .sp{
+border: none;
+text-decoration: underline;
+color:#0250bb;
+background-color: white;
+}
+.simple-container div .sp:hover{
+border: none;
+text-decoration: underline;
+color:#0250bb;
+background-color: white;
+}
+.simple-container div h2{
+margin-top: 10px;
+}
+.donate-container{
+display: flex;
+align-items: center;
+width:90%;
+background-color: #e7dfff;
+border-radius: 8px;
+height:250px;
+margin: 50px;
+} 
+.donate-container div{
+margin: 30px;
+font-size: x-large;
+font-weight: bold;
+} 
+.donate-container div h4{
+color:#7547e8;
+}
+.donate-container div a{
+border: 2px solid;
+border-radius: 5px;
+background-color: black;
+color: white;
+font-size: large;
+font-weight: bold;
+padding: 10px 20px;
+} 
+.donate-container div a:hover{
+background-color: #ededf0;
+color:black;    
+
+}
+#div5{
+background-color:#f0f0f4;
+width: 100%;
+text-align: center;
+font-size: larger;
+padding-top:50px
+
+}
+
+
+input{
+border:2px solid black;
+width: 450px;
+height: 40px;
+margin-top:20px;
+
+}
+input[type="submit"]
+{
+
+margin-top:10px;
+background-color: black;
+color: white;
+width: 460px;
+font-size: large;
+font-weight: bold;
+}
+input[type="submit"]:hover{
+background-color: #ededf0;
+color:black;    
+
+}
+.a2{
+padding: 10px;
+background-color: black;
+color: white;
+font-size: large;
+font-weight: bold;
+}
+.a2:hover{
+border:2px solid;
+background-color: #ededf0;
+color:black;    
+
+}
+.p1
+{
+font-size: small;
+}
+#div6 label{
+text-align: start;
+font-weight: bold;
+}
+#div6 p{
+margin-left:110px;
+}
