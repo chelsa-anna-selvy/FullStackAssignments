@@ -12,4 +12,4 @@ function is_even(n)
 }
 
 let result = is_even(n)
-console.write(result)
+console.log(result)
