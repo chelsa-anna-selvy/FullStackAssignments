@@ -1,4 +1,4 @@
-let n = 5
+
 function is_even(n)
 {
     if(n % 2 == 0)
@@ -10,6 +10,6 @@ function is_even(n)
         return "Odd"
     }
 }
-
+let n = 5
 let result = is_even(n)
-console.write(result)
+console.log(result)
